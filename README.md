@@ -1,2 +1,2 @@
-# [ZUMS](https://ranopashec.github.io/ZUMS/index.html)
+# [ZUMS](https://ranopashec.github.io/ZUMS/)
 
