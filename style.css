@@ -1,21 +1,68 @@
-#cell-continer{
-  background-color: yellow; /* Replace with your desired background color */
-  border: 1px solid black;
-  height: 150px;
-  width: 1000px;
-}
-.cell {
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  display: inline-block;
-  padding: 10px;
-  border: 5px solid black;
-  cursor: pointer;
+
+body {
+  background-color: #355C7D; 
+  color: #F67280;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #game-container{
-  
-  text-align: center
+  border: 3px solid ;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#cell-continer{
+  margin: 25px;
+  height: 200px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  border: 3px solid ;
+  align-items: center;
+}
+
+.cell {
+  margin: 15px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #F67280;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+  background-color: #6C5B7B;
+  border: 3px solid;
+  cursor: pointer;
+}
+
+#button-container{
+  margin: 25px;
+  height: 150px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+}
+
+#plus-button, #minus-button, #divide-button, #multiply-button{
+  background-color: #6C5B7B;
+  border: 3px solid #F67280;
+  margin: 5px;
+  font-size: 50px;
+  font: bold;
+  color: #F67280;
+  width: 100px;
+  height: 100px;
+}
+
+#restart-button {
+  margin: 10px;
 }
 
