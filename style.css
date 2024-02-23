@@ -27,6 +27,7 @@ body {
   align-items: center;
 }
 
+
 .cell {
   margin: 15px;
   width: 100px;
@@ -63,6 +64,50 @@ body {
   height: 100px;
   cursor: pointer;
 }
+
+#text-field{
+  background-color: #6C5B7B;
+  border: 3px solid #F67280;
+  margin: 5px;
+  font-size: 50px;
+  font: bold;
+  color: #F67280;
+  width: 300px;
+  height: 50px;
+  
+}
+
+#btnControl {
+  display: none;
+}
+.btn {
+  margin: 15px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #F67280;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+  background-color: #6C5B7B;
+  border: 3px solid;
+  cursor: pointer;
+}
+
+.btn:active {
+  margin-left: 1px 1px 0;
+  box-shadow: -1px -1px 1px #000;
+  outline: 1px solid #000000;
+  -moz-outline-radius: 7px;
+  background-color: #302936;
+  color: #a6222f;
+}
+#btnControl:checked + label {
+  width: 70px;
+  height: 74px;
+  line-height: 74px;
+  
+}
+
 
 #restart-button {
   margin: 10px;
